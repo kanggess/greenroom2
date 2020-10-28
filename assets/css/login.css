@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,body {
+  height: 100%;
+}
+body {
+ height: 100%;
+ background:url(../images/login_bg.jpg) no-repeat;
+ background-size: cover;
+ overflow: hidden;
+}
+.logo {
+  width: 1200px;
+  margin:20px auto 0;
+}
+
+/* 中间布局的样式 */
+.login,
+.register {
+  width: 360px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title {
+  padding: 18px 0;
+  text-align: center;
+}
+.myForm {
+  padding:0 30px;
+}
+.myForm a {
+  float:right;
+}
+.myForm .layui-form-item {
+  position: relative;
+}
+.myForm .layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.myForm input {
+  padding-left:30px;
+}
+.register {
+  display: none;
+}
